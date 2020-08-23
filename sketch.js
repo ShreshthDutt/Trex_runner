@@ -48,6 +48,7 @@ function setup() {
   restart.scale = 0.6;
   gameOver.visible = false;
   restart.visible = false;
+  trex.setCollider("circle",0,0,40);
   
 }
 
